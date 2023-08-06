@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Kids Store</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+        }
+        .product {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .product-item {
+            width: 300px;
+            margin: 20px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        .product-image {
+            text-align: center;
+        }
+        .product-image img {
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 4px;
+        }
+        .product-title {
+            margin-top: 10px;
+            font-weight: bold;
+        }
+        .product-price {
+            margin-top: 5px;
+            color: #888;
+        }
+        .product-button {
+            margin-top: 10px;
+            text-align: center;
+        }
+        .product-button button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 5px 10px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 14px;
+        }
+        .product-button button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to our Kids Store</h1>
+    <div class="product">
+        <div class="product-item">
+            <div class="product-image">
+                <img src="product1.jpg" alt="Product 1">
+            </div>
+            <div class="product-title">Product 1</div>
+            <div class="product-price">$19.99</div>
+            <div class="product-button">
+                <button>Add to Cart</button>
+            </div>
+        </div>
+        <div class="product-item">
+            <div class="product-image">
+                <img src="product2.jpg" alt="Product 2">
+            </div>
+            <div class="product-title">Product 2</div>
+            <div class="product-price">$24.99</div>
+            <div class="product-button">
+                <button>Add to Cart</button>
+            </div>
+        </div>
+        <!-- Add more product items as needed -->
+    </div>
+</body>
+</html>
